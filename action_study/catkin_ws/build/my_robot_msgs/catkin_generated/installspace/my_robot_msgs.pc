@@ -1,4 +1,4 @@
-prefix=/home/offworld/action_study/catkin_ws/install
+prefix=/home/offworld/ros_study/action_study/catkin_ws/install
 
 Name: my_robot_msgs
 Description: Description of my_robot_msgs

@@ -1,2 +1,2 @@
 my_robot_msgs:my_robot_tutorials
--DCATKIN_DEVEL_PREFIX=/home/offworld/action_study/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/offworld/action_study/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/offworld/ros_study/action_study/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/offworld/ros_study/action_study/catkin_ws/install -G Unix Makefiles

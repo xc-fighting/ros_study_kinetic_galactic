@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_robot_msgs_generate_messages_cpp"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h"
-  "/home/offworld/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/offworld/action_study/catkin_ws/src/my_robot_tutorials
+# Install script for directory: /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/offworld/action_study/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/offworld/ros_study/action_study/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/offworld/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorials.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/offworld/ros_study/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorials.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_tutorials/cmake" TYPE FILE FILES
-    "/home/offworld/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorialsConfig.cmake"
-    "/home/offworld/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorialsConfig-version.cmake"
+    "/home/offworld/ros_study/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorialsConfig.cmake"
+    "/home/offworld/ros_study/action_study/catkin_ws/build/my_robot_tutorials/catkin_generated/installspace/my_robot_tutorialsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_tutorials" TYPE FILE FILES "/home/offworld/action_study/catkin_ws/src/my_robot_tutorials/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_tutorials" TYPE FILE FILES "/home/offworld/ros_study/action_study/catkin_ws/src/my_robot_tutorials/package.xml")
 endif()
 

@@ -1,2 +1,2 @@
 test_ros_qt
--DCATKIN_DEVEL_PREFIX=/home/offworld/qt_ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/offworld/qt_ros/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/offworld/ros_study/qt_ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/offworld/ros_study/qt_ros/catkin_ws/install -G Unix Makefiles

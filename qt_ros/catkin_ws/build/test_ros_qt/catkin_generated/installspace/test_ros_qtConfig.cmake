@@ -67,14 +67,14 @@ set(test_ros_qt_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(test_ros_qt_SOURCE_PREFIX /home/offworld/qt_ros/catkin_ws/src/test_ros_qt)
-  set(test_ros_qt_DEVEL_PREFIX /home/offworld/qt_ros/catkin_ws/devel)
+  set(test_ros_qt_SOURCE_PREFIX /home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt)
+  set(test_ros_qt_DEVEL_PREFIX /home/offworld/ros_study/qt_ros/catkin_ws/devel)
   set(test_ros_qt_INSTALL_PREFIX "")
   set(test_ros_qt_PREFIX ${test_ros_qt_DEVEL_PREFIX})
 else()
   set(test_ros_qt_SOURCE_PREFIX "")
   set(test_ros_qt_DEVEL_PREFIX "")
-  set(test_ros_qt_INSTALL_PREFIX /home/offworld/qt_ros/catkin_ws/install)
+  set(test_ros_qt_INSTALL_PREFIX /home/offworld/ros_study/qt_ros/catkin_ws/install)
   set(test_ros_qt_PREFIX ${test_ros_qt_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/offworld/qt_ros/catkin_ws/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/offworld/ros_study/qt_ros/catkin_ws/install/lib;/home/offworld/ros_study/action_study/catkin_ws/devel/lib;/home/offworld/swarm-robotic-mining/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

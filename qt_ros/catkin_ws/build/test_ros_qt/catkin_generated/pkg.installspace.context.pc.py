@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "test_ros_qt"
-PROJECT_SPACE_DIR = "/home/offworld/qt_ros/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/offworld/ros_study/qt_ros/catkin_ws/install"
 PROJECT_VERSION = "0.1.0"

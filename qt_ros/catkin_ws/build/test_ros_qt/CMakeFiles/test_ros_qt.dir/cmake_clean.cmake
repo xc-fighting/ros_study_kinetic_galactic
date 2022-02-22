@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_ros_qt.dir/qrc_images.cxx.o"
   "CMakeFiles/test_ros_qt.dir/include/test_ros_qt/moc_main_window.cxx.o"
   "CMakeFiles/test_ros_qt.dir/include/test_ros_qt/moc_qnode.cxx.o"
-  "/home/offworld/qt_ros/catkin_ws/devel/lib/test_ros_qt/test_ros_qt.pdb"
-  "/home/offworld/qt_ros/catkin_ws/devel/lib/test_ros_qt/test_ros_qt"
+  "/home/offworld/ros_study/qt_ros/catkin_ws/devel/lib/test_ros_qt/test_ros_qt.pdb"
+  "/home/offworld/ros_study/qt_ros/catkin_ws/devel/lib/test_ros_qt/test_ros_qt"
 )
 
 # Per-language clean rules from dependency scanning.

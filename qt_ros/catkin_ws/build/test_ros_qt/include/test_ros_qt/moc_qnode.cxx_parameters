@@ -4,7 +4,7 @@
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
--I/home/offworld/qt_ros/catkin_ws/build/test_ros_qt
+-I/home/offworld/ros_study/qt_ros/catkin_ws/build/test_ros_qt
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_PACKAGE_NAME="test_ros_qt"
@@ -14,5 +14,5 @@
 -DQT_CORE_LIB
 -DQT_NO_KEYWORDS
 -o
-/home/offworld/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_qnode.cxx
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_qnode.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp

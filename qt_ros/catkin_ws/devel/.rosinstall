@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/offworld/qt_ros/catkin_ws/devel/setup.sh
+    local-name: /home/offworld/ros_study/qt_ros/catkin_ws/devel/setup.sh

@@ -1,8 +1,8 @@
-prefix=/home/offworld/action_study/catkin_ws/devel
+prefix=/home/offworld/ros_study/action_study/catkin_ws/devel
 
 Name: my_robot_msgs
 Description: Description of my_robot_msgs
 Version: 0.0.0
-Cflags: -I/home/offworld/action_study/catkin_ws/devel/include
+Cflags: -I/home/offworld/ros_study/action_study/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: actionlib_msgs roscpp rospy std_msgs

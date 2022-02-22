@@ -5,6 +5,7 @@ import actionlib
 from my_robot_msgs.msg import CountUtilAction
 from my_robot_msgs.msg import CountUtilGoal
 from my_robot_msgs.msg import CountUtilResult
+from my_robot_msgs.msg import CountUtilFeedback
 
 class CountUtilServer:
 
@@ -23,13 +24,28 @@ class CountUtilServer:
         self._counter = 0
         rate = rospy.Rate(1.0/wait_duration)
 
-        while self._counter < max_number:
+        success = False
+        while not rospy.is_shutdown():
             self._counter += 1
+            if self._counter > 9:
+                break
+            if self._counter >= max_number:
+                success = True
+                break
+            rospy.loginfo("the counter value {}".format(self._counter))
+            feedback = CountUtilFeedback()
+            feedback.percentage = float(self._counter) / float(max_number)
+            self._as.publish_feedback(feedback)
             rate.sleep()
 
         result = CountUtilResult()
         result.count = self._counter
-        self._as.set_succeeded(result)
+        if success == True:
+            rospy.loginfo("Success")
+            self._as.set_succeeded(result)
+        else:
+            rospy.loginfo("Abort")
+            self._as.set_aborted(result)
 
 
 

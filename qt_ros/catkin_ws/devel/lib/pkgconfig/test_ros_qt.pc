@@ -1,4 +1,4 @@
-prefix=/home/offworld/qt_ros/catkin_ws/devel
+prefix=/home/offworld/ros_study/qt_ros/catkin_ws/devel
 
 Name: test_ros_qt
 Description: Description of test_ros_qt

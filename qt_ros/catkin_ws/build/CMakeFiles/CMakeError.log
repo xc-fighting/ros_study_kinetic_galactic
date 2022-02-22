@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0b888/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0b888.dir/build.make CMakeFiles/cmTC_0b888.dir/build
-make[1]: Entering directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0b888.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0b888.dir/CheckSymbolExists.c.o   -c /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0b888
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b888.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0b888.dir/CheckSymbolExists.c.o  -o cmTC_0b888 -rdynamic 
-CMakeFiles/cmTC_0b888.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f4f69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4f69.dir/build.make CMakeFiles/cmTC_f4f69.dir/build
+make[1]: Entering directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4f69.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f4f69.dir/CheckSymbolExists.c.o   -c /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4f69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f69.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f4f69.dir/CheckSymbolExists.c.o  -o cmTC_f4f69 -rdynamic 
+CMakeFiles/cmTC_f4f69.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0b888.dir/build.make:97: recipe for target 'cmTC_0b888' failed
-make[1]: *** [cmTC_0b888] Error 1
-make[1]: Leaving directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0b888/fast' failed
-make: *** [cmTC_0b888/fast] Error 2
+CMakeFiles/cmTC_f4f69.dir/build.make:97: recipe for target 'cmTC_f4f69' failed
+make[1]: *** [cmTC_f4f69] Error 1
+make[1]: Leaving directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f4f69/fast' failed
+make: *** [cmTC_f4f69/fast] Error 2
 
-File /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,44 +34,44 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1b31/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1b31.dir/build.make CMakeFiles/cmTC_c1b31.dir/build
-make[1]: Entering directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c1b31.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c1b31.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c1b31
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b31.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c1b31.dir/CheckFunctionExists.c.o  -o cmTC_c1b31 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a4fbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4fbc.dir/build.make CMakeFiles/cmTC_a4fbc.dir/build
+make[1]: Entering directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4fbc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a4fbc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4fbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4fbc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a4fbc.dir/CheckFunctionExists.c.o  -o cmTC_a4fbc -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c1b31.dir/build.make:97: recipe for target 'cmTC_c1b31' failed
-make[1]: *** [cmTC_c1b31] Error 1
-make[1]: Leaving directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c1b31/fast' failed
-make: *** [cmTC_c1b31/fast] Error 2
+CMakeFiles/cmTC_a4fbc.dir/build.make:97: recipe for target 'cmTC_a4fbc' failed
+make[1]: *** [cmTC_a4fbc] Error 1
+make[1]: Leaving directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4fbc/fast' failed
+make: *** [cmTC_a4fbc/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_05540/fast"
-/usr/bin/make -f CMakeFiles/cmTC_05540.dir/build.make CMakeFiles/cmTC_05540.dir/build
-make[1]: Entering directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_05540.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_05540.dir/CheckSymbolExists.cxx.o -c /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_f1fc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1fc5.dir/build.make CMakeFiles/cmTC_f1fc5.dir/build
+make[1]: Entering directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1fc5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_f1fc5.dir/CheckSymbolExists.cxx.o -c /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^
-CMakeFiles/cmTC_05540.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_05540.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_05540.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_05540/fast' failed
-make: *** [cmTC_05540/fast] Error 2
+CMakeFiles/cmTC_f1fc5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f1fc5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f1fc5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f1fc5/fast' failed
+make: *** [cmTC_f1fc5/fast] Error 2
 
-File /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -87,24 +87,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b59ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b59ad.dir/build.make CMakeFiles/cmTC_b59ad.dir/build
-make[1]: Entering directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b59ad.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_b59ad.dir/CheckSymbolExists.cxx.o -c /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_15791/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15791.dir/build.make CMakeFiles/cmTC_15791.dir/build
+make[1]: Entering directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15791.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_15791.dir/CheckSymbolExists.cxx.o -c /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^
-CMakeFiles/cmTC_b59ad.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b59ad.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_b59ad.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b59ad/fast' failed
-make: *** [cmTC_b59ad/fast] Error 2
+CMakeFiles/cmTC_15791.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_15791.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_15791.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15791/fast' failed
+make: *** [cmTC_15791/fast] Error 2
 
-File /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -120,24 +120,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7031a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7031a.dir/build.make CMakeFiles/cmTC_7031a.dir/build
-make[1]: Entering directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7031a.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_7031a.dir/CheckSymbolExists.cxx.o -c /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_6d090/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d090.dir/build.make CMakeFiles/cmTC_6d090.dir/build
+make[1]: Entering directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d090.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_6d090.dir/CheckSymbolExists.cxx.o -c /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^
-CMakeFiles/cmTC_7031a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7031a.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_7031a.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7031a/fast' failed
-make: *** [cmTC_7031a/fast] Error 2
+CMakeFiles/cmTC_6d090.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6d090.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6d090.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d090/fast' failed
+make: *** [cmTC_6d090/fast] Error 2
 
-File /home/offworld/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/offworld/ros_study/qt_ros/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/offworld/action_study/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/offworld/ros_study/action_study/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/offworld/action_study/catkin_ws/build
+CMAKE_BINARY_DIR = /home/offworld/ros_study/action_study/catkin_ws/build
 
 # Utility rule file for my_robot_msgs_gennodejs.
 
@@ -63,10 +63,10 @@ my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/build: my_robot_msgs_gennod
 .PHONY : my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/build
 
 my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/clean:
-	cd /home/offworld/action_study/catkin_ws/build/my_robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/my_robot_msgs_gennodejs.dir/cmake_clean.cmake
+	cd /home/offworld/ros_study/action_study/catkin_ws/build/my_robot_msgs && $(CMAKE_COMMAND) -P CMakeFiles/my_robot_msgs_gennodejs.dir/cmake_clean.cmake
 .PHONY : my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/clean
 
 my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/depend:
-	cd /home/offworld/action_study/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/offworld/action_study/catkin_ws/src /home/offworld/action_study/catkin_ws/src/my_robot_msgs /home/offworld/action_study/catkin_ws/build /home/offworld/action_study/catkin_ws/build/my_robot_msgs /home/offworld/action_study/catkin_ws/build/my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/offworld/ros_study/action_study/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/offworld/ros_study/action_study/catkin_ws/src /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs /home/offworld/ros_study/action_study/catkin_ws/build /home/offworld/ros_study/action_study/catkin_ws/build/my_robot_msgs /home/offworld/ros_study/action_study/catkin_ws/build/my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_robot_msgs/CMakeFiles/my_robot_msgs_gennodejs.dir/depend
 

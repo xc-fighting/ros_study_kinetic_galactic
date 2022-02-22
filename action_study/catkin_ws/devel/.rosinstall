@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/offworld/action_study/catkin_ws/devel/setup.sh
+    local-name: /home/offworld/ros_study/action_study/catkin_ws/devel/setup.sh

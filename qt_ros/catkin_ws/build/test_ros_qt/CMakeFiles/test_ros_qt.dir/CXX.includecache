@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/offworld/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_main_window.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_main_window.cxx
 ../../../../src/test_ros_qt/include/test_ros_qt/main_window.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
 
-/home/offworld/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_qnode.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/test_ros_qt/include/test_ros_qt/moc_qnode.cxx
 ../../../../src/test_ros_qt/include/test_ros_qt/qnode.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
 
-/home/offworld/qt_ros/catkin_ws/build/test_ros_qt/qrc_images.cxx
+/home/offworld/ros_study/qt_ros/catkin_ws/build/test_ros_qt/qrc_images.cxx
 QtCore/qglobal.h
 -
 
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
 QtGui/QMainWindow
 -
 ui_main_window.h
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/ui_main_window.h
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/ui_main_window.h
 qnode.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
 
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
 ros/ros.h
 -
 string
@@ -36,15 +36,15 @@ QThread
 QStringListModel
 -
 
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/src/main.cpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/src/main.cpp
 QtGui
 -
 QApplication
 -
 ../include/test_ros_qt/main_window.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
 
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/src/main_window.cpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/src/main_window.cpp
 QtGui
 -
 QMessageBox
@@ -52,9 +52,9 @@ QMessageBox
 iostream
 -
 ../include/test_ros_qt/main_window.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/main_window.hpp
 
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/src/qnode.cpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/src/qnode.cpp
 ros/ros.h
 -
 ros/network.h
@@ -66,7 +66,7 @@ std_msgs/String.h
 sstream
 -
 ../include/test_ros_qt/qnode.hpp
-/home/offworld/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
+/home/offworld/ros_study/qt_ros/catkin_ws/src/test_ros_qt/include/test_ros_qt/qnode.hpp
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h
