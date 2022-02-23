@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/offworld/swarm-robotic-mining/catkin_ws/devel;/usr/include/eigen3;/usr/include/eigen3/Eigen;/opt/ros/kinetic;/usr/include/eigen3/Eigen'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/offworld/ros_study/action_study/catkin_ws/devel;/home/offworld/swarm-robotic-mining/catkin_ws/devel;/usr/include/eigen3;/usr/include/eigen3/Eigen;/opt/ros/kinetic;/usr/include/eigen3/Eigen'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

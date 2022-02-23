@@ -21,6 +21,9 @@ class CountUtilClient:
         #    rospy.logwarn("TIMEOUT")
         #rospy.loginfo("get the result")
         #rospy.loginfo(self._ac.get_result())
+        rospy.sleep(4)
+        self._ac.cancel_goal()
+
 
     def done_callback(self, status, result):
         rospy.loginfo("the status is: {}".format(status))

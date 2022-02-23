@@ -25,8 +25,12 @@ class CountUtilServer:
         rate = rospy.Rate(1.0/wait_duration)
 
         success = False
+        cancel = False
         while not rospy.is_shutdown():
             self._counter += 1
+            if self._as.is_preempt_requested():
+                cancel = True
+                break
             if self._counter > 9:
                 break
             if self._counter >= max_number:
@@ -40,6 +44,9 @@ class CountUtilServer:
 
         result = CountUtilResult()
         result.count = self._counter
+        if cancel == True:
+            rospy.loginfo("Cancel the goal")
+            self._as.set_preempted(result)
         if success == True:
             rospy.loginfo("Success")
             self._as.set_succeeded(result)
