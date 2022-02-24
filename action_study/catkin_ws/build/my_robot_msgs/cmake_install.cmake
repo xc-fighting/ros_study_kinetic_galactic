@@ -33,7 +33,10 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_msgs/action" TYPE FILE FILES "/home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs/action/CountUtil.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_msgs/action" TYPE FILE FILES
+    "/home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs/action/CountUtil.action"
+    "/home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs/action/Odometry.action"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -45,6 +48,18 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilGoal.msg"
     "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilResult.msg"
     "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilFeedback.msg"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_msgs/msg" TYPE FILE FILES
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryAction.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionGoal.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionResult.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionFeedback.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryGoal.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryResult.msg"
+    "/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryFeedback.msg"
     )
 endif()
 

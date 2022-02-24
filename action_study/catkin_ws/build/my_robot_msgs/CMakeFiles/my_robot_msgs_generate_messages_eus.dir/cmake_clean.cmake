@@ -1,12 +1,19 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_robot_msgs_generate_messages_eus"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryResult.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilActionResult.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryActionFeedback.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryFeedback.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilAction.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilGoal.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryActionGoal.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilResult.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilFeedback.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilActionFeedback.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryActionResult.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/CountUtilActionGoal.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryGoal.l"
+  "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/msg/OdometryAction.l"
   "/home/offworld/ros_study/action_study/catkin_ws/devel/share/roseus/ros/my_robot_msgs/manifest.l"
 )
 

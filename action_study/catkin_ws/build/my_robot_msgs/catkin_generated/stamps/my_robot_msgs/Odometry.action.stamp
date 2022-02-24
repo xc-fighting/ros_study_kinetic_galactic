@@ -1,0 +1,10 @@
+#goal
+int64 position
+float64 velocity
+---
+#result
+int64 position
+string message
+---
+#feedback
+int64 position

@@ -1,2 +1,2 @@
-set(my_robot_msgs_MESSAGE_FILES "msg/CountUtilAction.msg;msg/CountUtilActionGoal.msg;msg/CountUtilActionResult.msg;msg/CountUtilActionFeedback.msg;msg/CountUtilGoal.msg;msg/CountUtilResult.msg;msg/CountUtilFeedback.msg")
+set(my_robot_msgs_MESSAGE_FILES "msg/CountUtilAction.msg;msg/CountUtilActionGoal.msg;msg/CountUtilActionResult.msg;msg/CountUtilActionFeedback.msg;msg/CountUtilGoal.msg;msg/CountUtilResult.msg;msg/CountUtilFeedback.msg;msg/OdometryAction.msg;msg/OdometryActionGoal.msg;msg/OdometryActionResult.msg;msg/OdometryActionFeedback.msg;msg/OdometryGoal.msg;msg/OdometryResult.msg;msg/OdometryFeedback.msg")
 set(my_robot_msgs_SERVICE_FILES "")

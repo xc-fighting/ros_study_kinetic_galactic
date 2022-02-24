@@ -53,14 +53,27 @@ CMAKE_BINARY_DIR = /home/offworld/ros_study/action_study/catkin_ws/build
 # Include the progress variables for this target.
 include my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp.dir/progress.make
 
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryResult.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryFeedback.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h
 my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryGoal.h
+my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h
 
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryResult.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryResult.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_robot_msgs/OdometryResult.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryResult.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionResult.msg
@@ -69,8 +82,24 @@ my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_robot_msgs/CountUtilActionResult.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from my_robot_msgs/CountUtilActionResult.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionResult.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionFeedback.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryFeedback.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from my_robot_msgs/OdometryActionFeedback.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionFeedback.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryFeedback.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryFeedback.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from my_robot_msgs/OdometryFeedback.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryFeedback.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilAction.msg
@@ -84,25 +113,34 @@ my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionResult.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from my_robot_msgs/CountUtilAction.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from my_robot_msgs/CountUtilAction.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilAction.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilGoal.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from my_robot_msgs/CountUtilGoal.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from my_robot_msgs/CountUtilGoal.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilGoal.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionGoal.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryGoal.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from my_robot_msgs/OdometryActionGoal.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionGoal.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilResult.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from my_robot_msgs/CountUtilResult.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from my_robot_msgs/CountUtilResult.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilResult.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilFeedback.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from my_robot_msgs/CountUtilFeedback.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from my_robot_msgs/CountUtilFeedback.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilFeedback.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -112,8 +150,18 @@ my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from my_robot_msgs/CountUtilActionFeedback.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from my_robot_msgs/CountUtilActionFeedback.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionFeedback.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionResult.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryResult.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from my_robot_msgs/OdometryActionResult.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionResult.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionGoal.msg
@@ -121,17 +169,45 @@ my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp: /home/offworld/ros
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilGoal.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from my_robot_msgs/CountUtilActionGoal.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from my_robot_msgs/CountUtilActionGoal.msg"
 	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/CountUtilActionGoal.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryGoal.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryGoal.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from my_robot_msgs/OdometryGoal.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryGoal.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryAction.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionGoal.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionFeedback.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryActionResult.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryResult.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryFeedback.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryGoal.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/offworld/ros_study/action_study/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from my_robot_msgs/OdometryAction.msg"
+	cd /home/offworld/ros_study/action_study/catkin_ws/src/my_robot_msgs && /home/offworld/ros_study/action_study/catkin_ws/build/catkin_generated/env_cached.sh /home/offworld/ve/py27/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg/OdometryAction.msg -Imy_robot_msgs:/home/offworld/ros_study/action_study/catkin_ws/devel/share/my_robot_msgs/msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_robot_msgs -o /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+
 my_robot_msgs_generate_messages_cpp: my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryResult.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionResult.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionFeedback.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryFeedback.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilAction.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilGoal.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionGoal.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilResult.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilFeedback.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionFeedback.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryActionResult.h
 my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/CountUtilActionGoal.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryGoal.h
+my_robot_msgs_generate_messages_cpp: /home/offworld/ros_study/action_study/catkin_ws/devel/include/my_robot_msgs/OdometryAction.h
 my_robot_msgs_generate_messages_cpp: my_robot_msgs/CMakeFiles/my_robot_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : my_robot_msgs_generate_messages_cpp

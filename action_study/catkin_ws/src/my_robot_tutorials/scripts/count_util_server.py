@@ -47,7 +47,7 @@ class CountUtilServer:
         if cancel == True:
             rospy.loginfo("Cancel the goal")
             self._as.set_preempted(result)
-        if success == True:
+        elif success == True:
             rospy.loginfo("Success")
             self._as.set_succeeded(result)
         else:

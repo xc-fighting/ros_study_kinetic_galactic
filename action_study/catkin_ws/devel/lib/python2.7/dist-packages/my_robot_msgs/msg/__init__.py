@@ -5,3 +5,10 @@ from ._CountUtilActionResult import *
 from ._CountUtilFeedback import *
 from ._CountUtilGoal import *
 from ._CountUtilResult import *
+from ._OdometryAction import *
+from ._OdometryActionFeedback import *
+from ._OdometryActionGoal import *
+from ._OdometryActionResult import *
+from ._OdometryFeedback import *
+from ._OdometryGoal import *
+from ._OdometryResult import *
